@@ -1,0 +1,7 @@
+import re
+data = input()
+match_val = re.match(r"ge+.*",data)
+if match_val:
+    print(True)
+else:
+    print(False)
